@@ -8,9 +8,6 @@ Two Spring Boot microservices demonstrate REST design, CRUD, inter‑service RES
 - `eureka-server` (port 8761): Service discovery (Eureka).
 - `gateway` (port 8080): Spring Cloud Gateway routing to product & order services via discovery.
 
-## Tech
-Spring Boot 3.5.9, Java 21, Spring Web, JPA/Hibernate, Bean Validation, H2, RestTemplate, SLF4J, Spring Cloud Gateway, Eureka, Springdoc OpenAPI.
-
 ## Run locally (without Docker)
 Open two terminals:
 ```bash
