@@ -8,27 +8,11 @@ Two Spring Boot microservices demonstrate REST design, CRUD, inter‑service RES
 - `eureka-server` (port 8761): Service discovery (Eureka).
 - `gateway` (port 8080): Spring Cloud Gateway routing to product & order services via discovery.
 
-## Run locally (without Docker)
-Open two terminals:
-```bash
-# Terminal 1 - Eureka
-cd eureka-server
-mvn spring-boot:run
+ Run locally (without Docker)
 
-# Terminal 2 - Product Service
-cd product-service
-mvn spring-boot:run
 
-# Terminal 3 - Order Service
-cd order-service
-mvn spring-boot:run
-
-# Terminal 4 - Gateway
-cd gateway
-mvn spring-boot:run
-```
-
-H2 consoles: `http://localhost:8081/h2-console` and `http://localhost:8082/h2-console` (JDBC URLs are in each `application.properties`).
+## H2 consoles: 
+`http://localhost:8081/h2-console` and `http://localhost:8082/h2-console` (JDBC URLs are in each `application.properties`).
 Swagger: `http://localhost:8081/swagger-ui.html` and `http://localhost:8082/swagger-ui.html`.
 Gateway entrypoint: `http://localhost:8080` (proxied `/products/**`, `/orders/**`).
 
