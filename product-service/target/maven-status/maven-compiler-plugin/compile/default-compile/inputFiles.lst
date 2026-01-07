@@ -1,0 +1,11 @@
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\controller\ProductController.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\dto\ProductRequest.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\dto\ProductResponse.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\dto\ReduceQuantityRequest.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\entity\Product.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\exception\ErrorResponse.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\exception\GlobalExceptionHandler.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\exception\ResourceNotFoundException.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\ProductServiceApplication.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\repository\ProductRepository.java
+C:\Users\HI\Desktop\Sanjini\Sanjini\product-service\src\main\java\com\example\productservice\service\ProductService.java
